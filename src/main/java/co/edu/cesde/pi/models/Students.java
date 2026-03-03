@@ -1,13 +1,13 @@
 package co.edu.cesde.pi.models;
 
 public class Students {
-    long student_id;
-    long user_id;
-    String code;
-    String document_number;
-    String first_name;
-    String last_name;
-    String birth_date;
+    private long student_id;
+    private long user_id;
+    private String code;
+    private String document_number;
+    private String first_name;
+    private String last_name;
+    private String birth_date;
 
     public Students() {}
 

@@ -1,10 +1,10 @@
 package co.edu.cesde.pi.models;
 
 public class Users {
-    long user_id;
-    String username;
-    String password_hash;
-    boolean status;
+    private long user_id;
+    private String username;
+    private String password_hash;
+    private boolean status;
 
     public Users(){}
 

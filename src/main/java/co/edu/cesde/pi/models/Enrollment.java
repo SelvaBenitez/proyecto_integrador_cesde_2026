@@ -1,10 +1,10 @@
 package co.edu.cesde.pi.models;
 
 public class Enrollment {
-    long student_id;
-    String enrollment_id;
-    String group_id;
-    String period_id;
+    private long student_id;
+    private String enrollment_id;
+    private String group_id;
+    private String period_id;
 
     public Enrollment() {}
 
