@@ -1,60 +1,49 @@
 package co.edu.cesde.pi.models;
 
 public class Enrollment {
-    private long student_id;
-    private String enrollment_id;
-    private String group_id;
-    private String period_id;
+    private long student_Id;
+    private String enrollment_Id;
+    private String group_Id;
+    private String period_Id;
 
     public Enrollment() {}
 
-    public Enrollment(long student_id, boolean status, String period_id, String group_id, String enrollment_id) {
-        this.student_id = student_id;
-        this.status = status;
-        this.period_id = period_id;
-        this.group_id = group_id;
-        this.enrollment_id = enrollment_id;
+    public Enrollment(long student_Id, String enrollment_Id, String group_Id, String period_Id) {
+        this.student_Id = student_Id;
+        this.enrollment_Id = enrollment_Id;
+        this.group_Id = group_Id;
+        this.period_Id = period_Id;
     }
 
-    public long getStudent_id() {
-        return student_id;
+    public long getStudent_Id() {
+        return student_Id;
     }
 
-    public void setStudent_id(long student_id) {
-        this.student_id = student_id;
+    public void setStudent_Id(long student_Id) {
+        this.student_Id = student_Id;
     }
 
-    public boolean isStatus() {
-        return status;
+    public String getEnrollment_Id() {
+        return enrollment_Id;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setEnrollment_Id(String enrollment_Id) {
+        this.enrollment_Id = enrollment_Id;
     }
 
-    public String getPeriod_id() {
-        return period_id;
+    public String getPeriod_Id() {
+        return period_Id;
     }
 
-    public void setPeriod_id(String period_id) {
-        this.period_id = period_id;
+    public void setPeriod_Id(String period_Id) {
+        this.period_Id = period_Id;
     }
 
-    public String getGroup_id() {
-        return group_id;
+    public String getGroup_Id() {
+        return group_Id;
     }
 
-    public void setGroup_id(String group_id) {
-        this.group_id = group_id;
+    public void setGroup_Id(String group_Id) {
+        this.group_Id = group_Id;
     }
-
-    public String getEnrollment_id() {
-        return enrollment_id;
-    }
-
-    public void setEnrollment_id(String enrollment_id) {
-        this.enrollment_id = enrollment_id;
-    }
-
-    boolean status;
 }
