@@ -9,7 +9,6 @@ public class Students {
     private String last_name;
     private String birth_date;
 
-    public Students() {}
 
     public Students(long student_id, boolean status, String birth_date, String last_name, String first_name, String document_number, long user_id, String code) {
         this.student_id = student_id;
