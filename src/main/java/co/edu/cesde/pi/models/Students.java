@@ -8,10 +8,13 @@ public class Students {
     private String first_Name;
     private String last_Name;
     private String birth_Date;
+    private boolean status;
+
+
 
     public Students() {}
 
-    public Students(long student_Id, long user_Id, String code, String document_Number, String first_Name, String last_Name, String birth_Date) {
+    public Students(long student_Id, long user_Id, String code, String document_Number, String first_Name, String last_Name, String birth_Date, boolean status) {
         this.student_Id = student_Id;
         this.user_Id = user_Id;
         this.code = code;
@@ -19,6 +22,7 @@ public class Students {
         this.first_Name = first_Name;
         this.last_Name = last_Name;
         this.birth_Date = birth_Date;
+        this.status = status;
     }
 
     public long getStudent_Id() {
@@ -75,5 +79,26 @@ public class Students {
 
     public void setBirth_Date(String birth_Date) {
         this.birth_Date = birth_Date;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Students{" +
+                "Student_Id='" + student_Id + '\'' +
+                ", userId=" + user_Id +
+                ", code=" + code +
+                ", document_Number=" + document_Number +
+                ", first_Name=" + first_Name +
+                ", last_Name=" + last_Name +
+                ", status=" + status +
+                '}';
     }
 }

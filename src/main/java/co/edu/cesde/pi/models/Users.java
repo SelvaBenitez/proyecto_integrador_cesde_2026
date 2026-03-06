@@ -46,4 +46,14 @@ public class Users {
     public void setStatus(boolean status) {
         this.status = status;
     }
+
+    @Override
+    public String toString() {
+        return "Teachers{" +
+                "User_Id='" + user_Id + '\'' +
+                ", username=" + username +
+                ", password_Hash=" + password_Hash +
+                ", status=" + status +
+                '}';
+    }
 }

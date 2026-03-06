@@ -46,4 +46,13 @@ public class Enrollment {
     public void setGroup_Id(String group_Id) {
         this.group_Id = group_Id;
     }
+    @Override
+    public String toString() {
+        return "Enrollment{" +
+                "Student_Id'" + student_Id + '\'' +
+                ", enrrolment_Id=" + enrollment_Id + '\'' +
+                ", group_Id=" + group_Id + '\'' +
+                ", period_Id=" + period_Id + '\'' +
+                '}';
+    }
 }
