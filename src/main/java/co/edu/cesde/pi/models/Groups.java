@@ -8,7 +8,7 @@ public class Groups {
     private String periodId;
     private String shift;
 
-    public Groups(long groupId, long code, String programId, String periodId, String shift) {
+    public Groups(long l, int i, String abc, String def, String hij) {
         this.groupId = groupId;
         this.code = code;
         this.programId = programId;

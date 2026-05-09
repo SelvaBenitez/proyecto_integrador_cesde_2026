@@ -9,7 +9,7 @@ public class Subjects {
     private String programId;
 
 
-    public Subjects(long subjectId, long code, String name, String credits, String programId) {
+    public Subjects() {
         this.subjectId = subjectId;
         this.code = code;
         this.name = name;
